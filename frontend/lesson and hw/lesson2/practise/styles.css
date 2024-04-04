@@ -1,0 +1,24 @@
+*{
+    margin: 18;
+    padding: 18;
+}
+body{
+    background-color: aquamarine;
+}
+.block{
+    padding-top: 15px;
+    padding-left: 25px;
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    align-self: auto;
+}
+.section{
+    text-align: center;
+    align-items: center;
+}
+.h1{
+    text-align: center;
+    align-content: center;
+}
