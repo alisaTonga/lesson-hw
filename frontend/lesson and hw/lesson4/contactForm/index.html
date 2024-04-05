@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form method="post" id="contact-form">
+        <div>
+            <label for="email">Email
+                <input id="email" placeholder="Enter your email" required> 
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password
+                <input id="password" placeholder="Enter your password" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            Your age:
+            <div>
+            <input id="age1" type="radio" name="age" value="0-18">
+            <label for="age1">0-18</label>
+        </div>
+        <div>
+            <input id="age2" type="radio" name="age" value="19-30">
+            <label for="age2">19-30</label>
+        </div>
+        <div>
+            <input id="age3" type="radio" name="age" value="31-40">
+            <label for="age3">31-40</label>
+        </div>
+        <div>
+            <input id="age4" type="radio" name="age" value="41-50">
+            <label for="age4">41-50</label>
+        </div>
+        <div>
+            <input id="age5" type="radio" name="age" value="50+">
+            <label for="age5">50+</label>
+        </div>
+        </div>
+        <br>
+        <div>
+            <label for="favoriteColor">Your favorite color</label>
+            <input id="favoriteColor" type="color" name="color">
+        </div>
+        <br>
+        <div>
+            <textarea maxlength="100" name="text" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="Birthday">Birthday: </label>
+            <input type="date" name="Birthday " id="Birthday">
+        </div>
+        <br>
+        <div>
+            <label for="friendsCount">Enter your friends amount(0-500) </label>
+            <input type="range" name="friendsCount" id="friendsCount" min="0" max="500" 
+            oninput="this.nextElementSibling.value= this.value">
+            <output></output>
+        </div>
+        <br>
+        <div>
+            <label for="contactMethod"> The best way to contact you
+                <select name="contactMethod" form="contactForm">
+                    <option value="phone">Via phone</option>
+                    <option value="email">Via email</option>
+                    <option value="post">Via post</option>
+                    <option value="WhatsApp">Via WhatsApp</option>
+                </select>
+            </label>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="agree_spam" id="agree1" value="YES">
+            <label for="agree1">Consent for updates</label>
+        </div>
+        <div>
+            <input type="checkbox" name="agree_terms" id="agree2" value="YES">
+            <label for="agree2">Agree to data processing terms</label>
+        </div>
+        <div>
+            <input checked type="checkbox" name="agree_rent" id="agree3" value="YES">
+            <label for="agree3">Agree to rent your apartment</label>
+        </div>
+        <div>
+            <p>
+            <input type="file" name="userPhoto" tabindex="">
+            </p>
+        </div>
+        <div>
+            <p>Action:</p>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>

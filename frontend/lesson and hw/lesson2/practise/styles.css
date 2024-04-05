@@ -6,13 +6,15 @@ body{
     background-color: rgba(55, 227, 169, 0.212);
 }
 .block{
+    text-align: center;
     padding-top: 15px;
-    padding-left: 25px;
+    padding-left: 10px;
     border-radius: 15px;
-    width: 250px;
+    width: 450px;
     height: 250px;
     border: 2px solid black;
     align-self: auto;
+    margin-top: 25px;
 }
 .section{
     text-align: center;
