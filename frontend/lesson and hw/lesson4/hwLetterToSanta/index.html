@@ -6,7 +6,7 @@
     <title>Letter to Santa</title>
 </head>
 <body>
-    <form method="post" id="letterToSanta">
+    <form action="./greetings.html">
         <h1>Letter to Santa Claus</h1>
         <p>Dear friend, don't be shy and tell Sante about who you are and what you would like to get for Christmas.</p>
         <div>
@@ -72,13 +72,19 @@
     <p><b>You can write your letter here:</b></p>
     <textarea maxlength="1000" name="text" id="" cols="40" rows="10"></textarea>
     <br>
-    <p>Have you been a good child this year?</p>
+
     <div>
+        <p>Have you been a good child this year?</p>
+
         <input id="good" type="radio" name="good" value="good">
         <label for="good">YES</label>
 
         <input id="bad" type="radio" name="bad" value="bad">
         <label for="bad">NO</label>
+    </div>
+    <br>
+    <div>
+        <button type="submit">Send</button>
     </div>
     </form>
     
