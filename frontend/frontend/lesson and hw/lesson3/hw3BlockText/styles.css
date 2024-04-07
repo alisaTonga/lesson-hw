@@ -1,0 +1,29 @@
+h1{
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    font-size: large;
+    font-weight: 500;
+    width: 70%;
+    padding: 50px;
+    border: 3px solid red;
+    margin: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+span{
+    font-size: large;
+    width: 650px;
+    height: 150px;
+    border: 3px solid blue;
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    background-color: blanchedalmond
+}
+img{
+    display: flex;
+    margin-top: ;
+}
