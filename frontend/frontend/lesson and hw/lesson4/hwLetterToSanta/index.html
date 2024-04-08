@@ -6,7 +6,7 @@
     <title>Letter to Santa</title>
 </head>
 <body>
-    <form method="post" id="letterToSanta">
+    <form action="./greetings.html">
         <h1>Letter to Santa Claus</h1>
         <p>Dear friend, don't be shy and tell Sante about who you are and what you would like to get for Christmas.</p>
         <div>
@@ -52,9 +52,40 @@
                 <input type="date" id="dateOfBirth" type="date" value="dateOfBirth">
             </label>
         </div>    
-   
+    <br>
+    <label for="country"> In which country do you live?
+        <select name="country" form="letterToSanta">
+            <option value="usa">USA</option>
+            <option value="germany">Germany</option>
+            <option value="india">India</option>
+            <option value="uk">UK</option>
+            <option value="georgia">Georgia</option>
+            <option value="other">Other</option>
+        </select>
+    </label>
+    <br>
+    <p>If you choose "Other", write your answer:</p>
+        <label for=""></label>
+        <input id="country" placeholder="Enter your country here"> 
+    </label>
+    <br>
+    <p><b>You can write your letter here:</b></p>
+    <textarea maxlength="1000" name="text" id="" cols="40" rows="10"></textarea>
+    <br>
 
+    <div>
+        <p>Have you been a good child this year?</p>
 
+        <input id="good" type="radio" name="good" value="good">
+        <label for="good">YES</label>
+
+        <input id="bad" type="radio" name="bad" value="bad">
+        <label for="bad">NO</label>
+    </div>
+    <br>
+    <div>
+        <button type="submit">Send</button>
+    </div>
     </form>
     
 </body>
