@@ -6,4 +6,6 @@ const cars = [
     { brand: "Porshe", price: 50000, isDiesel: true },
     { brand: "Nissan", price: 25000, isDiesel: false },
 ];
-const newCars = cars.map()
+const newCars = cars
+.map((car)=> car.isDiesel ? car = { brand: "Tesla", price: 25000, isDiesel: false } : car)
+console.log(newCars);
