@@ -1,0 +1,38 @@
+*{
+    background-color: rgba(142, 216, 250, 0.199);
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin: 50px;
+    background-color: lightblue;
+    border-radius: 15px;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.button{
+    background-color: aliceblue;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.counter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: brown;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(72, 72, 184);
+    display: flex;
+    justify-content: center;
+}
