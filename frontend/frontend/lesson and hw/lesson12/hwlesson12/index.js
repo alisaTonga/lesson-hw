@@ -33,7 +33,7 @@ todolistElement.addEventListener("submit",(event)=>{
     }
     chores.push(chore)
     const liElement = document.createElement("li");
-    liElement.textContent = `${chore.chore}`;
+    liElement.textContent = `${chore.chore} 🐾`;
     liElement.onclick = newStatus;
 
     allTodos.append(liElement)
