@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My to-do list</title>
+</head>
+<body>
+    <h1>Hello, my friend!</h1>
+    <h2> Here you can create your to-do list. </h2>
+    <p> Creating to-do list can help you organise your life and increase your efficiency. </p>
+    <div class="list">
+    <form id="todo-list">
+        <input type="text" name="chores" placeholder="My chores:" class="input" required>
+        <button id="submit" class="btn submit" type="submit">Submit</button>
+    </form>
+    </div>
+    <br>
+    <ul id="list"></ul>
+    <div class="btn-container">
+        <button id="clearAll" class="btn left">Clear all list</button>
+        <button id="deliteOneElement" class="btn right">Delite 1 element</button>
+    </div>
+</body>
+</html>
