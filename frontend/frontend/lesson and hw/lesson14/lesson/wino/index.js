@@ -6,7 +6,7 @@
 // 4. Если у вина рейтинг 4.9 и больше то покрасить карточку в светло-зеленый.
 // А если 4.8 - то в светло-голубой
 const container = document.querySelector(".container")
-fetch("https://api.sampleapis.com/wines/whites")
+fetch("https://api.sampleapis.com/wines/reds")
 .then(res=>res.json())
 .then(json=>render(json))
 
