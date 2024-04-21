@@ -1,0 +1,31 @@
+*{
+    background-color: rgb(228, 207, 228);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(162, 100, 219);
+    margin-bottom: 200px;
+}
+#btn{
+    color: rgb(228, 207, 228);
+    height: 70px;
+    width: 170px;
+    font-size: 25px;
+    background-color:rgb(162, 100, 219);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 50%;
+}
+#container{
+    font-size: 40px;
+    margin-left: 50px;
+    color: purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 200px;
+}
